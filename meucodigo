@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 2</title>
+    </head>
+    <body>
+        <!--As tags podem ser personalizadas com os atributos-->
+        <h3 id="A2" style="color: rgb(192, 98, 98)">
+
+        </h3>
+        <!--Hyperlinks ou links são elementos usados para criar conexões entre sites,
+        páginas ou seções de uma página. Eles permitem que os usuários cliquem em
+    um texto para que ele seja redirecionado para outro docuento.
+        Em HTML, a tag <a> define os links.
+            
+        O atributo href especifica o endereço do link, que pode ser outro site. (Absuluto ou externo
+        .)-->
+    <a href="https://google.com"> Link para visitar o google </a><br>
+    <!-- Além de referenciar links externos, podemos também referenciar páginas dentro
+    do nosso site.
+Criar um outro arquivo, chamado aula2a.html (Relativo ou interno)-->
+
+<a href="aula2a.html"> Vamos a nossa outra página</a>
+
+<!-- Além de podermos linkar outros sites e páginas, podemos também navegar dentro da nossa página utilizando ID e a #. Normalmente pe utilizado para criar índices -->
+
+<hr>
+
+<p>
+    Lorem ipsum lorem platea maecenas hendrerit auctor tincidunt interdum, varius at integer inceptos rutrum elementum aliquet cras fermentum, accumsan molestie tempus blandit rhoncus egestas dolor. 
+    himenaeos condimentum pretium auctor pharetra sit mauris luctus iaculis sagittis, sodales sociosqu tortor consequat conubia augue in cras nisl, pellentesque lobortis potenti consectetur conubia porttitor eu rutrum. 
+    velit consectetur torquent accumsan ad cubilia vulputate nulla platea vivamus blandit, aenean facilisis eleifend fringilla pretium amet fames morbi habitasse vulputate, purus tempor sem dictumst gravida fusce purus mauris suscipit. 
+    amet dapibus cras ad aenean inceptos condimentum ac volutpat urna habitant, cursus curae diam id tempus quam ultrices posuere turpis maecenas, enim nullam torquent phasellus donec eleifend ut amet hac. 
+    </p>
+    <p>
+    A tempus torquent elementum posuere nulla platea per aptent euismod posuere sodales est accumsan vivamus, cras placerat mauris libero malesuada lacus bibendum non aliquam rutrum erat dictum venenatis. 
+    justo ligula consectetur taciti velit tincidunt potenti hendrerit velit, facilisis in torquent taciti class nostra urna quis, eros lorem sapien himenaeos quisque aliquam nunc. 
+    tellus interdum commodo nisi rhoncus venenatis litora placerat quis, at eros risus hac vitae maecenas blandit, euismod ornare vulputate mi ultrices accumsan nam. 
+    quam platea ut pretium elementum lobortis class ultricies suspendisse, blandit aliquam dapibus tortor lobortis primis leo, facilisis hendrerit sollicitudin vestibulum tellus scelerisque elit. 
+    </p>
+    <p>
+    Fusce ut etiam libero litora massa maecenas duis inceptos dapibus pulvinar fusce, id non donec class fermentum etiam eros malesuada erat cursus, massa semper mi ipsum tempor eu ac morbi quis eget. 
+    dui ornare morbi nisi convallis risus eleifend felis, integer fringilla laoreet malesuada ut. 
+    litora odio rhoncus leo sagittis dapibus libero varius porta metus sollicitudin, ornare feugiat porta risus ultricies velit nec placerat. 
+    ultricies tempor aptent laoreet justo varius molestie dolor nec adipiscing conubia, sodales fusce maecenas in mauris vivamus ut lacinia litora fermentum, mi tincidunt hac at interdum felis at platea mollis. 
+    </p>
+    <p>
+    Elementum quis elit neque imperdiet habitasse mollis faucibus ullamcorper blandit bibendum netus, leo at imperdiet metus fames massa nam ultricies nisl fringilla, dui orci suspendisse lectus ac nunc etiam rhoncus eleifend faucibus. 
+    non sagittis odio senectus id congue cras torquent feugiat vulputate ipsum, morbi potenti massa in sociosqu donec himenaeos curae tempus, quis iaculis aliquam sapien duis ad commodo varius tortor. 
+    morbi scelerisque placerat nec sagittis consequat vitae non potenti metus aliquam, curabitur taciti aliquet placerat eu massa velit potenti ut, fusce ante curabitur accumsan nisi phasellus vestibulum sociosqu feugiat. 
+    </p>
+    <p>
+    Rutrum suspendisse morbi adipiscing rutrum nisl a gravida aliquam habitasse mattis libero massa condimentum est suscipit duis egestas, pharetra aptent litora commodo donec gravida lobortis primis sed justo turpis ornare per aliquam interdum. 
+    sollicitudin tincidunt mollis curabitur tellus convallis, placerat enim odio congue enim, a class interdum dapibus. 
+    ac vehicula turpis mattis odio maecenas rhoncus velit lacus, suscipit congue ligula ipsum convallis aenean dolor lobortis condimentum, etiam curabitur neque quam ullamcorper mollis himenaeos. 
+    nulla turpis senectus in mollis ut porta quisque aenean, lorem aliquet viverra urna aliquet sodales etiam. 
+    habitant venenatis etiam velit mauris molestie lorem, sapien non pretium aptent eleifend, conubia mi aptent eleifend nisi. 
+    </p>
+
+    <hr>
+
+
+
+    <a href="#A2">Voltar ao início</a> <!-- Marcamos uma tag com o ID, para retornar colocamos o mesmo ID precedido do simbolo # no href da tag a-->
+
+
+    <!-- É possivel também inserir com links arquivos para que o usuário faça o downloads.
+Como imagens, músicas, arquivos executáveis, jogos programas etc. Exemplo:-->
+
+
+<a href="game.exe">Baixe agora o jogo fufeu</a>
+<!--Obs: Você tem que colocar o arquivo na pasta do script como você fez com as imagens e etc-->
+<!-- Também ao invés de texto, podemos ter uma imagem clicável para fazer o dowloand ou então ir ao link-->
+
+<!--
+    Uma tabela HTML é definida com a tag <table>.
+
+
+    Cada linha da tabela é definida com a tag <tr>.
+
+
+    Cada célula da tabela é definida com a tag <td>.
+
+
+    Um cabeçalho de tabela é definido com a tag <th>.
+    Por padrão, os títulos das tabelas estão
+    em negrito e centralizados
+
+
+-->
+
+<hr>
+
+<h2>Tabela</h2>
+
+<table border="1" height="400px" width="100%">
+
+    <tr>
+        <th colspan="4">Melhores jogos do ano</th>
+    </tr>
+
+    <tr>
+      <th>Game</th>
+      <th>Plataforma</th>
+      <th>Gênero</th>
+      <th>Preço</th>
+    </tr>
+
+
+    <tr>
+    <td>Paint of dead</td>
+    <td>Pc da xuxa</td>
+    <td>RPG</td>
+    <td>Todo seu dinheiro</td>
+
+
+    <tr>
+        <td>Cyter Log</td>
+        <td>Laptop</td>
+        <td>Ação - Mundo aberto - Futurista</td>
+        <td>Gratis</td>
+
+
+        <tr>
+            <td>Fife</td>
+            <td>PC da rasa</td>
+            <td>Casual - futebol</td>
+            <td>512 reais</td>
+
+
+            <tr>
+                <td>Cyter Paint of Fife</td>
+                <td>Pc da rasanawcore4kfullhd0999900kkkk123k593kfullhg</td>
+                <td>Free fire</td>
+                <td>162476246124124 reais</td>
+
+                <tr>
+                    <td>Final da fila</td>
+                    <td>PCfullht0999900kkkk123k593kfullhg</td>
+                    <td>God good God Bad</td>
+                    <td>Gratis</td>
+</table>
+
+
+<h1>Links extras</h1>
+
+<a href="https://www.google.com/logos/2010/pacman10-i.html"> 
+    <img src="download (2).jpg" alt="hehehe">
+</a> <br>
+<a href="https://flappybird.io/"> 
+    <img src="download.jpg" alt="hehehe">
+</a>
+
+
+    </body>
+</html> 
